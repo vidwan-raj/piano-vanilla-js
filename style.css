@@ -1,0 +1,46 @@
+body{
+    background-color: beige;
+}
+
+.key{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.layout{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.white{
+    width: 9%;
+    min-width: 60px;
+    height: 60%;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.black{
+    width: 8%;
+    height: 45%;
+    margin-left: -4%;
+    margin-right: -4%;
+    border: 1px solid white;
+    z-index: 2;
+    background-color: black;
+    color: #fff;
+}
+
+
+.white.active{
+    background-color: gray;
+}
+
+.black.active{
+    background-color: gray;
+}
